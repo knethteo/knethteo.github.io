@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## My online presence
 
-You can use the [editor on GitHub](https://github.com/knethteo/knethteo.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Here's a list hosted on Github pages where you can find me 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Github
 
-### Markdown
+I share my code over at [Github!](http://github.com/knethteo).
+I also have a repository for scripts that I have created/used throughout the years that made my life significantly easier.  I [blog](https://blogs.msdn.microsoft.com/kennethteo/) about them (most of the time) on their usage.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Check them out, I hope you will find them useful.
 
-```markdown
-Syntax highlighted code block
+### Blog
 
-# Header 1
-## Header 2
-### Header 3
+I keep my learning and sharing over at [MSDN Blog](https://blogs.msdn.microsoft.com/kennethteo/).
+They include my learning from customers, and sharing on tips of what I felt like improved my work.
 
-- Bulleted
-- List
+### LinkedIn
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/knethteo/knethteo.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+(coming soon)?
