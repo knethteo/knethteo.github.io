@@ -17,9 +17,9 @@ title: Kenneth Teo
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   This is a platform for me to write and share my learnings, mostly from my customer engagements.
+  Needless to say this weblog does not represent the thoughts, intentions, plans or strategies of my employer.
   This site is hosted on Github Pages, with the help of Jekyll.
-  You can find instruction on how to create something similar from scratch at https://www.kennethteo.my/learning/2018/08/18/My-new-blog-location.html
-  Source code for this site can be found at https://github.com/knethteo/knethteo.github.io
+  Source code for this site can be found at my Github.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: knethteo
