@@ -3,6 +3,7 @@ layout: post
 title:  "My new blog location"
 date:   2018-08-18 21:34:00 +0800
 categories: learning
+comments: true
 ---
 [Draft]
 I have started to move my blogs from [MSDN][MSDN-Link] over to [Github Pages][GithubPages-Link] slowly, I feel it is more appropriate considering some of my posts are personal in nature.
