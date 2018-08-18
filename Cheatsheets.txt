@@ -1,0 +1,5 @@
+---command---
+bundle show minima > show minima template location
+bundle exec jekyll serve > run site locally
+
+---other---
