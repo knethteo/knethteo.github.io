@@ -6,6 +6,7 @@ categories: learning
 ---
 [Draft]
 I have started to move my blogs from [MSDN][MSDN-Link] over to [Github Pages][GithubPages-Link] slowly, I feel it is more appropriate considering some of my posts are personal in nature.
+<!--more-->
 
 I have been looking at different options to host my blogs since a few months ago, from fully managed sites like Medium, or Blogspot to blog CMS like Ghost or Wordpress, which I have to eventually find a way to host them.
 
