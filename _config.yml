@@ -13,12 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Kenneth's Journey
+title: Kenneth Teo
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is a platform for me to write and share my learnings, mostly from my customer engagements.
+  This site is hosted on Github Pages, with the help of Jekyll.
+  You can find instruction on how to create something similar from scratch at https://www.kennethteo.my/learning/2018/08/18/My-new-blog-location.html
+  Source code for this site can be found at https://github.com/knethteo/knethteo.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: knethteo
