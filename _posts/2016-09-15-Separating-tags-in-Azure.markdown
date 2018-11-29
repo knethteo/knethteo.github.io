@@ -30,7 +30,7 @@ Power BI also has a **free** for download desktop client, go ahead download and 
 ⋅⋅2. Click on _Transform_
 ⋅⋅3. Click on _Parse_
 3. Once you have parsed it, click on the small expand icon at the corner in the top cell, like following 
-[Expand][powerbi-tagsexpand-Link] expand it. [Expanded][powerbi-tagsexpanded-Link]
+![Expand][powerbi-tagsexpand-Link] expand it. ![Expanded][powerbi-tagsexpanded-Link]
 4. That's it!
 
 If you have any questions, feel free to comment below.
