@@ -14,7 +14,7 @@ Tagging can be done at resource group or individual resource. The purpose of tag
 
 ![itemized usage][itemizedUsage-Link]
 Notice that the Tags column is very messy/unorganized when you have multiple tags.
-
+<!--more-->
 ##The Solution
 If you have worked with JSON on a project or dueled with it extensively, you may have noticed the Tags column in the screenshot above is actually in JSON format.
 
