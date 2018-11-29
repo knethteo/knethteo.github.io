@@ -43,5 +43,5 @@ If you have any questions, feel free to comment below.
 [Tagging-Link]: https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-using-tags
 [PowerBI-Link]:https://powerbi.microsoft.com/en-us/
 [powerbi-tagscolumnclicked-Link]:https://kennethteo.blob.core.windows.net/blogimages/powerbi-tagscolumnclicked.jpg
-[powerbi-tagsexpand-Link]:[https://kennethteo.blob.core.windows.net/blogimages/powerbi-tagsexpand.jpg]
-[powerbi-tagsexpanded-Link]:[https://kennethteo.blob.core.windows.net/blogimages/powerbi-tagsexpanded.jpg]
+[powerbi-tagsexpand-Link]:https://kennethteo.blob.core.windows.net/blogimages/powerbi-tagsexpand.jpg
+[powerbi-tagsexpanded-Link]:https://kennethteo.blob.core.windows.net/blogimages/powerbi-tagsexpanded.jpg
