@@ -8,7 +8,7 @@ comments: true
 ## The Introduction
 Kerberos Delegation is the feature that allows an application (service account, or computer) to act on behalf of another user. [More information is provided by Microsoft][sensitive-cannotdelegate-Link].To protect sensitive accounts, such as Domain Admins, Enterprise Admins, etc., Active Directory administrators can selectively set an account to “Account is sensitive and cannot be delegated” (as you can see in Figure 1),  this will prevent a user’s credentials (TGT) from being reused. 
 
-[figure 1: Account properties with checkbox to enable "Account is sensitve and cannot be delegated"][screenshot-accountProp]
+[figure 1: Account properties with checkbox to enable "Account is sensitve and cannot be delegated"][https://kennethteo.blob.core.windows.net/blogimages/account_is_sen_cant_be_delegated.png]
 Figure 1. Checkbox to tag an account to be sensitive and cannot be delegated
 
 The idea of this setting is to limit scope of attack, particularly those categorized as privilege of escalation. Without this, sensitive credential may be harvested from compromised servers/service accounts where Kerberos delegation is enabled.
@@ -16,7 +16,10 @@ The idea of this setting is to limit scope of attack, particularly those categor
 With this setup, attacks such as credential harvesting, the [“printer bug”][https://adsecurity.org/?p=4056] and others can be partially mitigated by simply switching on “Account is sensitive and cannot be delegated”.
 
 ## The Problem
-Azure supports [tagging][Tagging-Link] of resources for the longest time; However, one of the complaints I have with this feature is: there is no easy way to separate them into their own column when exporting the usage details (see exhibit 1).
+However, if this setting can mitigate attacks, why aren't it widely adopted, and turned on by default?
+The reality, there may be instances where users need this for certain operations and depending on your organization this may or may not be an essential setting. However, security experts can agree on one thing, it is dangerous to leave this unchecked for privileged accounts and "shadow" privileged account.
+
+It then begs the question, what are the possible side-effects of setting the “Account is sensitive and cannot be delegated” flag.
 
 Tagging can be done at resource group or individual resource. The purpose of tags is loosely defined. Most often than not, an organization uses it to tag for cross-charge purposes.
 
