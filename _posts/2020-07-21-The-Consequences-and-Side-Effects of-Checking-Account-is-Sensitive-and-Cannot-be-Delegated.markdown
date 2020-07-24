@@ -8,12 +8,12 @@ comments: true
 ## The Introduction
 Kerberos Delegation is the feature that allows an application (service account, or computer) to act on behalf of another user. [More information is provided by Microsoft][sensitive-cannotdelegate-Link].To protect sensitive accounts, such as Domain Admins, Enterprise Admins, etc., Active Directory administrators can selectively set an account to “Account is sensitive and cannot be delegated” (as you can see in Figure 1),  this will prevent a user’s credentials (TGT) from being reused. 
 
-[figure 1: Account properties with checkbox to enable "Account is sensitve and cannot be delegated"](https://kennethteo.blob.core.windows.net/blogimages/account_is_sen_cant_be_delegated.png)
+[image-title-here](https://kennethteo.blob.core.windows.net/blogimages/account_is_sen_cant_be_delegated.png){:class="img-responsive"}
 Figure 1. Checkbox to tag an account to be sensitive and cannot be delegated
 
 The idea of this setting is to limit scope of attack, particularly those categorized as privilege of escalation. Without this, sensitive credential may be harvested from compromised servers/service accounts where Kerberos delegation is enabled.
 
-With this setup, attacks such as credential harvesting, the [“printer bug”][https://adsecurity.org/?p=4056] and others can be partially mitigated by simply switching on “Account is sensitive and cannot be delegated”.
+With this setup, attacks such as credential harvesting, the [“printer bug”](https://adsecurity.org/?p=4056) and others can be partially mitigated by simply switching on “Account is sensitive and cannot be delegated”.
 
 ## The Problem
 However, if this setting can mitigate attacks, why aren't it widely adopted, and turned on by default?
