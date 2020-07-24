@@ -2,4 +2,8 @@
 bundle show minima > show minima template location
 bundle exec jekyll serve > run site locally
 
+git remote origin
+git add .
+git commit -m ""
+git push
 ---other---
