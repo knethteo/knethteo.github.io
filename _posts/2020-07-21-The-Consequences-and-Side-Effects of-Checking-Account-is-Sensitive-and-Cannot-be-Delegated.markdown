@@ -8,7 +8,7 @@ comments: true
 ## The Introduction
 Kerberos Delegation is the feature that allows an application (service account, or computer) to act on behalf of another user. [More information is provided by Microsoft][sensitive-cannotdelegate-Link].To protect sensitive accounts, such as Domain Admins, Enterprise Admins, etc., Active Directory administrators can selectively set an account to “Account is sensitive and cannot be delegated” (as you can see in Figure 1),  this will prevent a user’s credentials (TGT) from being reused. 
 
-[image-title-here](https://kennethteo.blob.core.windows.net/blogimages/account_is_sen_cant_be_delegated.png){:class="img-responsive"}
+![image-title-here](https://kennethteo.blob.core.windows.net/blogimages/account_is_sen_cant_be_delegated.png){:class="img-responsive"}
 Figure 1. Checkbox to tag an account to be sensitive and cannot be delegated
 
 The idea of this setting is to limit scope of attack, particularly those categorized as privilege of escalation. Without this, sensitive credential may be harvested from compromised servers/service accounts where Kerberos delegation is enabled.
@@ -21,7 +21,7 @@ The reality, there may be instances where users need this for certain operations
 
 It then begs the question, what are the possible side-effects of setting the “Account is sensitive and cannot be delegated” flag.
 
-Tagging can be done at resource group or individual resource. The purpose of tags is loosely defined. Most often than not, an organization uses it to tag for cross-charge purposes.
+Indeed, setting this flag may prevent some day-to-day operations that may require Kerberos delegation. One such example is Live Migration for Hyper-V Virtual Machines, which you can read more at [Live Migration via Constrained Delegation](https://docs.microsoft.com/en-us/virtualization/community/team-blog/2017/20170201-live-migration-via-constrained-delegation-with-kerberos-in-windows-server-2016).
 
 ![itemized usage][itemizedUsage-Link]
 Notice that the Tags column is very messy/unorganized when you have multiple tags.
